@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+input,
+button {
+    padding: 10px;
+}
+
+input {
+    border: 2px solid lightgray;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow {
+    box-shadow: 0px 0px 5px 5px rgba(211, 211, 211, 0.5);
+}
+
+.pad20 {
+    padding: 20px;
+}
+
+.pad50 {
+    padding: 50px;
+}
+
+img {
+    width: 150px;
+}
+
+.black {
+    color: black;
+}
+
+.gray {
+    color: gray;
+}
+
+.white {
+    color: white;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.graybg {
+    background-color: lightgray;
+}
+
+.redbg {
+    background-color: red;
+}
+
+.greenbg {
+    background-color: green;
+}
+
+.rgap40 {
+    row-gap: 40px;
+}
+
+.fit {
+    width: fit-content;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
