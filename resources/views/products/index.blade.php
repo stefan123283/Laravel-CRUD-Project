@@ -21,7 +21,7 @@
     </header>
 
     @if(session()->has('success'))
-    <section class="flex green alert alert-success">
+    <section class="flex green alert alert-success pad50">
         <h2>{{session()->get('success')}}</h2>
     </section>
     @endif
